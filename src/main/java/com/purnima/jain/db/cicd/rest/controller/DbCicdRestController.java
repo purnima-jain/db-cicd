@@ -8,7 +8,7 @@ public class DbCicdRestController {
 	
 	@GetMapping("/messages")
     public String getMessage() {
-        return "Hello from db-cicd!";
+        return "Hello from db-cicd 3 !!";
     }
 
 }

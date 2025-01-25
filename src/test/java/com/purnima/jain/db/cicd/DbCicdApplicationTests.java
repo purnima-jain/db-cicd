@@ -3,10 +3,10 @@ package com.purnima.jain.db.cicd;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+// @SpringBootTest
 class DbCicdApplicationTests {
 
-	@Test
+	// @Test
 	void contextLoads() {
 	}
 

@@ -61,6 +61,15 @@
 					<target>21</target>
 				</configuration>
 			</plugin>
+
+			<plugin>
+				<groupId>org.liquibase</groupId>
+				<artifactId>liquibase-maven-plugin</artifactId>
+				<configuration>
+					<propertyFile>src/main/resources/liquibase.properties</propertyFile>
+					<migrationSqlOutputFile>src/main/resources/db/changelog/migrations.sql</migrationSqlOutputFile>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
